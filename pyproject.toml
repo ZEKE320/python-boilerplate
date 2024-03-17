@@ -13,6 +13,10 @@ jupyter = "*"
 mypy = "^1.8.0"
 pytest = "*"
 pytest-mock = "*"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
 
 
 [build-system]
