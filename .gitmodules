@@ -1,0 +1,3 @@
+[submodule "samples/lightgbm_sample"]
+	path = samples/lightgbm_sample
+	url = https://github.com/ayukat1016/lightgbm_sample
