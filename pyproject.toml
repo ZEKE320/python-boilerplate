@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "Python Boilerplate"
+version = "0.1.0"
+authors = ["Your Name"]
+description = "Python Boilerplate"
+packages = [{ from = ".", include = "*PUT YOUR PACKAGE NAME HERE*" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = { extras = ["jupyter"], version = "^23.12.1" }
+isort = "^5.13.2"
+jupyter = "*"
+mypy = "^1.8.0"
+pytest = "*"
+pytest-mock = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+plugins = "numpy.typing.mypy_plugin"
+exclude = "data/*"
+
+[tool.pylint.MASTER]
+disable = ["wrong-import-position", "line-too-long"]
