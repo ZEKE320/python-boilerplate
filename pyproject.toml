@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "Python Boilerplate"
+name = "lightgbm-handbook"
 version = "0.1.0"
 authors = ["Your Name"]
-description = "Python Boilerplate"
-packages = [{ from = ".", include = "*PUT YOUR PACKAGE NAME HERE*" }]
+description = "lightgbm-handbook"
+packages = [{ from = ".", include = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
