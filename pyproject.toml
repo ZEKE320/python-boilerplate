@@ -24,7 +24,6 @@ profile = "black"
 
 [tool.mypy]
 plugins = "numpy.typing.mypy_plugin"
-exclude = "data/*"
 
 [tool.pylint.MASTER]
 disable = ["wrong-import-position", "line-too-long"]
