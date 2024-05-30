@@ -1,9 +1,5 @@
 [tool.poetry]
-name = "lightgbm-handbook"
-version = "0.1.0"
-authors = ["Your Name"]
-description = "lightgbm-handbook"
-packages = [{ from = ".", include = "src" }]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
