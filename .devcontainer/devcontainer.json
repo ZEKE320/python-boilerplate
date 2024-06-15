@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-  "name": "LightGBM handbook",
+  "name": "Python Dev Container",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
@@ -11,14 +11,11 @@
   },
 
   "features": {
-    "ghcr.io/devcontainers/features/java": {
-      "version": "latest",
-      "jdkDistro": "ms"
-    },
+    "ghcr.io/devcontainers/features/java": {},
     "ghcr.io/devcontainers/features/python": {
-      "version": "3.12",
-      "installTools": false
-    }
+      "version": "3.12"
+    },
+    "ghcr.io/devcontainers-contrib/features/poetry": {}
   },
 
   "customizations": {
