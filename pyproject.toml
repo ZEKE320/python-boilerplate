@@ -5,14 +5,6 @@ package-mode = false
 python = "^3.12"
 black = { extras = ["jupyter"], version = "*" }
 isort = "*"
-jupyter = "*"
-mypy = "*"
-pytest = "*"
-pytest-mock = "*"
-pandas = "*"
-numpy = "*"
-matplotlib = "*"
-seaborn = "*"
 
 
 [build-system]
