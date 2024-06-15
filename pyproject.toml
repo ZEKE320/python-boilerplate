@@ -5,6 +5,7 @@ package-mode = false
 python = "^3.12"
 black = { extras = ["jupyter"], version = "*" }
 isort = "*"
+pyright = "*"
 
 
 [build-system]
